@@ -30,7 +30,7 @@
     // console.log(a - b);
 }
 
-// declaration Let()
+// Declaration Let()
 
 {
 

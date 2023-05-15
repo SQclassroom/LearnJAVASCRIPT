@@ -84,4 +84,100 @@ for ([initialExpression]; [conditionExpression]; [incrementExpression])
 // }
 
 
+// The For In Loop
 
+for (key in object) {
+    // code block to be executed
+  }
+
+{
+    const person = {fname:"John", lname:"Doe", age:25}; 
+  
+    let txt = "";
+    for (let x in person) {
+      txt += person[x] + " ";
+    }
+    
+    document.getElementById("demo").innerHTML = txt;
+}
+
+{
+    const numbers = [45, 4, 9, 16, 25];
+
+    let txt = "";
+    for (let x in numbers) {
+    txt += numbers[x] + "<br>"; 
+    }
+
+    document.getElementById("demo").innerHTML = txt;
+}
+
+// Do not use for in over an Array if the index order is important.
+
+// The index order is implementation-dependent, and array values may not be accessed in the order you expect.
+
+// It is better to use a for loop, a for of loop, or Array.forEach() when the order is important.
+
+
+// Array.forEach()  
+
+{
+    const numbers = [45, 4, 9, 16, 25];
+
+    let txt = "";
+    numbers.forEach(myFunction);
+    document.getElementById("demo").innerHTML = txt;
+
+    function myFunction(value, index, array) {
+    txt += value + "<br>"; 
+    }
+}
+
+// The For Of Loop
+
+for (variable of iterable) {
+    // code block to be executed
+  }
+
+//   variable - For every iteration the value of the next property is assigned to the variable. Variable can be declared with const, let, or var.
+
+//   iterable - An object that has iterable properties.
+  
+{
+    const cars = ["BMW", "Volvo", "Mini"];
+
+    let text = "";
+    for (let x of cars) {
+    text += x + "<br>";
+    }
+
+    document.getElementById("demo").innerHTML = text;
+}
+
+// Comparing For and While
+
+{
+    const cars = ["BMW", "Volvo", "Saab", "Ford"];
+
+    let i = 0;
+    let text = "";
+    for (;cars[i];) {
+    text += cars[i] + "<br>";
+    i++;
+    }
+
+    document.getElementById("demo").innerHTML = text;
+}
+
+{
+    const cars = ["BMW", "Volvo", "Saab", "Ford"];
+
+    let i = 0;
+    let text = "";
+    while (cars[i]) {
+    text += cars[i] + "<br>";
+    i++;
+    }
+
+    document.getElementById("demo").innerHTML = text;
+}

@@ -233,7 +233,7 @@ Ex: ! (A && B) is false.
 
 /* Miscellaneous Operator
 
-?
+? tarnary operator
 : (Conditional )
 If Condition is true? Then value X : Otherwise value Y
 

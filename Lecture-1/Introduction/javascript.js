@@ -8,53 +8,51 @@ Complementary to and integrated with HTML.
 Open and cross-platform
 */
 
-// JavaScript Values
-// The JavaScript syntax defines two types of values;
+/****   JavaScript Values   ****/
+/****   The JavaScript syntax defines two types of values; ****/
  
-// Fixed values are called Literals.
-// Variable values are called Variables.
+/**** Fixed values are called Literals. ****/
+/**** Variable values are called Variables. ****/
 
-//Using console in javascript
+/**** Using console in javascript ****/
+/**** var variable type / box variable name / = assignement / 60 assiged values ****/
 
-{
-    const boxx = 60; 
-     console.log(boxx);
-     document.write(boxx + "<br>");
-     window.alert(boxx);    
-     var box = 800;
-
-// var variable type / box variable name / = assignement / 60 assiged values
-
-    console.log(box);
-    console.log("hello javascript");
-    console.log(80);
-    var Box=70;
-    var box=50;
-    console.log(Box);
-}
+// {
+//     const boxx = 60; 
+//     console.log(boxx);
+//     document.write(boxx + "<br>");
+//     window.alert(boxx);    
+//     var box = 800;
+//     console.log(box);
+//     console.log("hello javascript");
+//     console.log(80);
+//     var Box=70;
+//     var box=50;
+//     console.log(Box);
+// }
 
 // javascript language case-sensitive 
 
 // variable useing var() in javascript
 
-{
-    var names="brinza";
-    names="Css";
-    console.log(names);
-    console.log(names);
+// {
+//     var names="brinza";
+//     names="Css";
+//     console.log(names);
+//     console.log(names);
     
-    var Names="foo";
-    var names="Javascript";
-    console.log(Names);
+//     var Names="foo";
+//     var names="Javascript";
+//     console.log(Names);
     
-    var thisis=15;
-    var thatis=45;
-    console.log(thisis-thatis);
+//     var thisis=15;
+//     var thatis=45;
+//     console.log(thisis-thatis);
     
-    var box1="toys";
-    var box1="cloths";
-    console.log(box1);
-}
+//     var box1="toys";
+//     var box1="cloths";
+//     console.log(box1);
+// }
 
 // new html element add in though javascript
 
@@ -72,38 +70,36 @@ Open and cross-platform
     // document.body.appendChild(newelement);
 }
 
-
 //Using the DOM API
 
-{
-    var a=50;
-    var b="Hey, I Am Javascript";
-    // var b=30;
-    document.getElementById("demo1").innerHTML=b;
-}
-document.getElementById("demo2").innerHTML=b;
+// {
+//     var a=50;
+//     var b="Hey, I Am Javascript";
+//     var b=30;
+//     document.getElementById("demo1").innerHTML=b;
+// }
 
 //let variable ( blockscope variables)
 
-{
-    let boxx1="toys1";
-     boxx1="clothes";
-    document.getElementById("demo3").innerHTML=boxx1;
-}
+// {
+//     let boxx1="toys1";
+//     boxx1="clothes";
+//     document.getElementById("demo3").innerHTML=boxx1;
+// }
 
 //const variable ( blockscope variables)
 
-{
-    const toys="bus";
-    document.getElementById("demo4").innerHTML=toys;    
-}
+// {
+//     const toys="bus";
+//     document.getElementById("demo4").innerHTML=toys;    
+// }
 
-document.write('hello javascript!');
+// document.write('hello javascript!');
 
-{
-    const a1=50;
-    //console.log(a);
-}
+// {
+//     const a1=50;
+//     //console.log(a);
+// }
 
 
 // js comments
