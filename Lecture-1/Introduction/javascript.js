@@ -15,25 +15,12 @@ Open and cross-platform
 /**** Variable values are called Variables. ****/
 
 /**** Using console in javascript ****/
-/**** var variable type / box variable name / = assignement / 60 assiged values ****/
 
-// {
-//     const boxx = 60; 
-//     console.log(boxx);
-//     document.write(boxx + "<br>");
-//     window.alert(boxx);    
-//     var box = 800;
-//     console.log(box);
-//     console.log("hello javascript");
-//     console.log(80);
-//     var Box=70;
-//     var box=50;
-//     console.log(Box);
-// }
+/**** var variable type / box variable name / = assignement / 60 assiged values ****/
 
 // javascript language case-sensitive 
 
-// variable useing var() in javascript
+/**************** variable useing var() in javascript *************************/
 
 // {
 //     var names="brinza";
@@ -54,44 +41,20 @@ Open and cross-platform
 //     console.log(box1);
 // }
 
-// new html element add in though javascript
+/*************************** New Html Element Add In Though Javascript **********************************/
 
-{
-    // var newelement=document.createElement("h1");
-    // newelement.textContent="hello world";
-    // document.body.appendChild(newelement);
+// {
+//     var newelement=document.createElement("h1");
+//     newelement.textContent="hello world";
+//     document.body.appendChild(newelement);
     
-    // var newelement=document.createElement("marquee" , Option);
-    // newelement.textContent="hello world";
-    // document.body.appendChild(newelement);
+//     var newelement=document.createElement("marquee" , Option);
+//     newelement.textContent="hello world";
+//     document.body.appendChild(newelement);
     
-    // var newelement=document.createElement("p");
-    // newelement.textContent="how are you!";
-    // document.body.appendChild(newelement);
-}
-
-//Using the DOM API
-
-// {
-//     var a=50;
-//     var b="Hey, I Am Javascript";
-//     var b=30;
-//     document.getElementById("demo1").innerHTML=b;
-// }
-
-//let variable ( blockscope variables)
-
-// {
-//     let boxx1="toys1";
-//     boxx1="clothes";
-//     document.getElementById("demo3").innerHTML=boxx1;
-// }
-
-//const variable ( blockscope variables)
-
-// {
-//     const toys="bus";
-//     document.getElementById("demo4").innerHTML=toys;    
+//     var newelement=document.createElement("p");
+//     newelement.textContent="how are you!";
+//     document.body.appendChild(newelement);
 // }
 
 // document.write('hello javascript!');

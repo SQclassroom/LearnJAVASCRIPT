@@ -9,82 +9,19 @@
 
 /* Arithmetic Operators
 
-+ (Addition)
-- (Subtraction)
-* (Multiplication)
-/ (Division)
-% (Modulus)
-++ (Increment)
--- (Decrement)
-**(Exponentiation)
+    + (Addition)
+    - (Subtraction)
+    * (Multiplication)
+    / (Division)
+    % (Modulus)
+    ++ (Increment)
+    -- (Decrement)
+    **(Exponentiation)
 
 */
 
 
 /* Arithmetic Operators */
-
-/* Addition */
-
-{
-    // var a = 20;
-    // var b = 40;
-    // var c = a + b;
-    // console.log(c);
-    // document.write(b);
-    // window.alert(a);
-}
-
-/* substraction */
-
-{
-    // var a = 20;
-    // var b = 20;
-    // var c = a-b;
-    // console.log(c);
-}
-
-/* multiplication */
-
-
-{
-    // var a = 30;
-    // var b = 20;
-    // var c = a*b;
-    // console.log(c);
-}
-
-/* division */
-
-{
-    // var a = 20;
-    // var b = 20;
-    // var c =b/a;
-    // console.log(c);
-}
-
-/* modulus */
-
-{
-    // var a = 10;
-    // var b = 3;
-    // var c = a % b;
-    // console.log(c);  
-}
-
-/* increment */
-
-{
-    // var increment = 51;
-    // console.log(++increment);
-}
-
-/* decriment */
-{
-    // var decriment = 50;
-    // console.log(--decriment);
-}
-
-/* expont. */
 
 // {
     // var a = 21;
