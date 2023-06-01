@@ -1,4 +1,4 @@
-// javascript string method and string search method
+/******  javascript string method and string search method ******/
 
 // String length
 // String slice()
@@ -21,18 +21,9 @@
 // String split()
 // String includes()
 
-/*****************************/
+/***********************************************/
 
-// String indexOf()
-// String lastIndexOf()
-// String search()
-// String match()
-// String matchAll()
-// String includes()
-// String startsWith()
-// String endsWith()
-
-// String length.
+/******  String length. ******/
 
 // {
 //     let text =" this  is javascript   ";
@@ -40,7 +31,7 @@
 //     console.log(textlength);
 // }
 
-// String slice()
+/****** String slice() ******/
 
 // {
 //     let fruits="apple  , mango , watermelon , strawberry";
@@ -48,16 +39,15 @@
 //     console.log(part);
 // }
 
-// String substring()
+/******  String substring() ******/
 
 // {
 //     let fruits="apple  , mango , watermelon , strawberry";
-//                 1234567890123456789012345678901234567890
 //     let part = fruits.substring(27 , 17);
 //     console.log(part);
 // }
 
-// String substr()
+/****** String substr() ******/ 
 
 // {
 //     let fruits="apple  , mango , watermelon , strawberry , lemon";
@@ -65,7 +55,7 @@
 //     console.log(part);
 // }
 
-// String replace()
+/****** String replace() ******/
 
 // {
 //     function myFunction() {
@@ -97,7 +87,7 @@
 // }
 
 
-// String replaceAll()
+/****** String replaceAll() ******/
 
 // {
 //     let text ="I love cats. but Cats are very easy to love. Cats are very popular. but Cats Dangerous";
@@ -108,7 +98,7 @@
 //     document.write(changee);
 // }
 
-// String toUpperCase()
+/****** String toUpperCase() ******/
 
 // {
 //     let text = "I love cats. but Cats are very easy to love. Cats are very popular. but Cats Dangerous";
@@ -116,7 +106,7 @@
 //     console.log(text1);
 // }
 
-// String toLowerCase()
+/******  String toLowerCase() ******/
 
 // {
 //     let text = "I LOVE CATS. BUT CATS ARE VERY EASY TO LOVE. CATS ARE VERY POPULAR. BUT CATS DANGEROUS";
@@ -124,7 +114,7 @@
 //     console.log(text1);
 // }
 
-// String concat()
+/******  String concat() ******/
 
 // {
 //     let text1 = "this is ";
@@ -143,7 +133,7 @@
 //     console.log(text8);
 // }
 
-// String trim()
+/******  String trim() ******/
 
 // {
 //     let demotext="         this is javascript.      ";
@@ -154,7 +144,7 @@
 //     document.write(text);
 // }
 
-// String trimStart()
+/******  String trimStart() ******/
 
 // {
 //     let demotext="         this is javascript.       ";
@@ -164,7 +154,7 @@
 //     console.log(text);
 // }
 
-// String trimEnd()
+/******  String trimEnd() ******/
 
 // {
 //     let demotext ="           this is javascript.    "
@@ -174,7 +164,7 @@
 //     console.log(text);
 // }
 
-// String padStart()
+/******  String padStart() ******/
 
 // {
 //     let demotext = "5";
@@ -182,7 +172,7 @@
 //     console.log(demo);
 // }
 
-// String padEnd()
+/******  String padEnd() ******/
 
 // {
 //     let demotext="5";
@@ -190,7 +180,7 @@
 //     console.log(demo);
 // }
 
-// String charAt()
+/******  String charAt() ******/
 
 // {
 //     let demotext="this is string values";
@@ -199,7 +189,7 @@
 //     console.log(demo);
 // }
 
-// String charCodeAt()
+/******  String charCodeAt() ******/
 
 // {
 //     let demotext="this is string values";
@@ -208,7 +198,7 @@
 //     console.log(demo);
 // }
 
-// String split()
+/****** String split() ******/
 
     // {
     //     let text = "HelloHello";
@@ -221,7 +211,7 @@
     //     document.write(text);
     // }
 
-// String includes() , true and false
+/******  String includes() , true and false ******/
 
     // {
     //     let demotext="this is string values";
@@ -231,7 +221,16 @@
 
 /*************************************************************/
 
-//  String indexOf()
+// String indexOf()
+// String lastIndexOf()
+// String search()
+// String match()
+// String matchAll()
+// String includes()
+// String startsWith()
+// String endsWith()
+
+/******   String indexOf() ******/
 
 // {
 //     let fruits="apple  , mango , watermelon , strawberry , lemon";
@@ -245,7 +244,7 @@
 //     console.log(part);
 // }
 
-//  String lastIndexOf()
+/******   String lastIndexOf() ******/
 
 // {
 //     let fruits="apple  , mango , watermelon , strawberry , lemon";
@@ -260,7 +259,7 @@
 // }
 
 
-// String search()
+/******  String search() ******/
 
 
 // {
@@ -274,7 +273,7 @@
 //     console.log(part);
 // }
 
-// String match()
+/******  String match() ******/
 
 // {
 //     let text = "this is javascript match method";
@@ -282,7 +281,7 @@
 //     console.log(part);
 // }
 
-// String matchall()
+/******  String matchall() ******/
 
 // {
 //     let text = "this is javascript match is method";
@@ -290,7 +289,7 @@
 //     console.log(part);
 // }+
 
-// String startsWith()
+/******  String startsWith() ******/
 
 // {
 //     let text = "Hello world, welcome to the universe.";
@@ -304,7 +303,7 @@
 //     console.log(part);
 // }
 
-// String endWith()
+/******  String endWith() ******/
 
 // {
 //     let text = "Hello world, welcome to the universe.";
@@ -319,23 +318,23 @@
 // }
 
 
-///  JavaScript Template Literals
+/******   JavaScript Template Literals ******/
 
-// back-Tic syntex 
+/******  back-Tic syntex ******/
 
 // {
 //     let text = `hello world!`;
 //     console.log(text);
 // }
 
-// quotes inside string
+/******  quotes inside string ******/
 
 // {
 //     let text = `He's name 'joe'`;
 //     console.log(text);
 // }
 
-// allow multiline string
+/******  allow multiline string ******/
 
 // {
 //     let  text = "this
