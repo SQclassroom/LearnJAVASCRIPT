@@ -1,17 +1,22 @@
 // Javascript Array
 
-// let name1 = "madhu";
-// let name2 = "vishal";
-// let name3 = "kishor";
-// let name4 = "chirag";
+// const fruits = [];
+// fruits.push("banana", "apple", "peach");
+// console.log(fruits.length);
+// fruits[5] = "mango";
+// console.log(fruits[5]);
+// console.log(Object.keys(fruits));
+// console.log(fruits.length);
+// fruits.length = 10;
+// console.log(fruits);
+// console.log(Object.keys(fruits));
+// console.log(fruits.length);
+// console.log(fruits[8]);
+// fruits.length = 2;
+// console.log(Object.keys(fruits));
+// console.log(fruits.length);
 
-// console.log(name1);
-// console.log(name4);
 
-//index 0 start
-
-// let newarray = ["madhu" , "vishal" , "kishor" , "chirag"];
-// console.log(newarray[3] , newarray[3]);
 
 // array length properties
 // Accessing the First Array Element
@@ -28,6 +33,9 @@ Array indexes start with 0:
 [2] is the third ...
 
 */
+
+// let newarray = ["madhu" , "vishal" , "kishor" , "chirag"];
+// console.log(newarray[3] , newarray[3]);
 
 // {
 //     const newarrrays = [
