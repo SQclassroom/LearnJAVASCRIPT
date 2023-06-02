@@ -288,7 +288,7 @@
 //     let text = "this is javascript match is method";
 //     let part = text.matchAll(/is/g);
 //     console.log(part);
-// }
+// }+
 
 /******  String startsWith() ******/
 
