@@ -283,11 +283,11 @@
 
 /******  String matchall() ******/
 
-// {
-//     let text = "this is javascript match is method";
-//     let part = text.matchAll(/is/g);
-//     console.log(part);
-// }+
+{
+    let text = "this is javascript match is method";
+    let part = text.matchAll(/is/gi);
+    console.log(part);
+}
 
 /******  String startsWith() ******/
 
