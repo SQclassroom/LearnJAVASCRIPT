@@ -35,23 +35,23 @@
 
 // {
 //     let fruits="apple  , mango , watermelon , strawberry";
-//     let part = fruits.slice(30 , 40);
+//     let part = fruits.slice(10 , 20);
 //     console.log(part);
 // }
 
 /******  String substring() ******/
 
 // {
-//     let fruits="apple  , mango , watermelon , strawberry";
-//     let part = fruits.substring(27 , 17);
+//     let fruits="abcdefghijklmnopqrstuvwxyz";
+//     let part = fruits.substring(5 , 9);
 //     console.log(part);
 // }
 
 /****** String substr() ******/ 
 
 // {
-//     let fruits="apple  , mango , watermelon , strawberry , lemon";
-//     let part = fruits.substr(-20 , 40);
+//     let fruits="abcdefghijklmnopqrstuvwxyz";
+//     let part = fruits.substr(-10 , 10);
 //     console.log(part);
 // }
 
@@ -119,7 +119,7 @@
 // {
 //     let text1 = "this is ";
 //     let text2 = "surat";
-//     let text3 = text1.concat(" " , text2);
+//     let text3 = text1.concat("    " , text2);
 //     let text4 = text3.length;
 //     let text5 = text1.length;
 //     let text6 = text2.length;
@@ -137,7 +137,7 @@
 
 // {
 //     let demotext="         this is javascript.      ";
-//                            1234567890123456789
+//                            01234567890123456789
 //     // let text = demotext.length;
 //     let demo = demotext.trim();
 //     let text = demo.length;
@@ -157,7 +157,7 @@
 /******  String trimEnd() ******/
 
 // {
-//     let demotext ="           this is javascript.    "
+//     let demotext ="         this is javascript.    "
 //     var text = demotext.length;
 //     let demo = demotext.trimEnd();
 //     var text = demo.length;
@@ -168,7 +168,7 @@
 
 // {
 //     let demotext = "5";
-//     let demo = demotext.padStart(6 , "0");
+//     let demo = demotext.padStart(8 , "00000000000");
 //     console.log(demo);
 // }
 
@@ -206,7 +206,7 @@
         
     //     text = "";
     //     for (let i = 0; i < myArr.length; i++) {
-    //       text += myArr[i] + "<br>"
+    //       text = text + myArr[i] + "<br>"
     //     }
     //     document.write(text);
     // }
@@ -215,7 +215,7 @@
 
     // {
     //     let demotext="this is string values";
-    //     let demo = demotext.includes("is");
+    //     let demo = demotext.includes("w");
     //     console.log(demo);
     // }
 
@@ -234,27 +234,27 @@
 
 // {
 //     let fruits="apple  , mango , watermelon , strawberry , lemon";
-//     let part = fruits.indexOf("mango");
+//     let part = fruits.indexOf("go");
 //     console.log(part);
 // }
 
 // {
-//     let fruits="apple  , mango , watermelon , strawberry , lemon";
-//     let part = fruits.indexOf("o" , 15);
+//     let fruits="apploe  , mango , watermelon , strawberry , lemon";
+//     let part = fruits.indexOf("o" , 5);
 //     console.log(part);
 // }
 
 /******   String lastIndexOf() ******/
 
 // {
-//     let fruits="apple  , mango , watermelon , strawberry , lemon";
+//     let fruits="apple  , mango , watermelon , strawberry , lemon , mango";
 //     let part = fruits.lastIndexOf("mango");
 //     console.log(part);
 // }
 
 // {
 //     let fruits="apple  , mango , watermelon , strawberry , lemon";
-//     let part = fruits.lasIndexOf("o" , 15);
+//     let part = fruits.lastIndexOf("o" , 20);
 //     console.log(part);
 // }
 
@@ -267,9 +267,10 @@
 //     let part = fruits.search("most");
 //     console.log(part);
 // }
+
 // {
 //     let fruits="javascript is 'most' populer langauage";
-//     let part = fruits.search(/most/);
+//     let part = fruits.search(/Most/i);
 //     console.log(part);
 // }
 
@@ -281,8 +282,9 @@
 //     console.log(part);
 // }
 
-/******  String matchall() ******/
+/******  String matchall()/ remider with array ******/
 
+<<<<<<< HEAD
 {
     const regexp = /is/g;
     const str = 'this is javascript';
@@ -293,6 +295,13 @@
     // Expected output: Array ["test2", "e", "st2", "2"]
 
 }
+=======
+// {
+//     let text = "this is javascript match is method";
+//     let part = text.matchAll(/is/g);
+//     console.log(part);
+// }+
+>>>>>>> de5dee84cc5b2c2c00fb519af9fe9a12b8dc8049
 
 /******  String startsWith() ******/
 
@@ -304,7 +313,7 @@
 
 // {
 //     let text = "Hello world, welcome to the universe.";
-//     let part = text.startsWith("Hello" , 1);
+//     let part = text.startsWith("Hello" , 0);
 //     console.log(part);
 // }
 
@@ -312,13 +321,13 @@
 
 // {
 //     let text = "Hello world, welcome to the universe.";
-//     let part = text.endsWith("universe.");
+//     let part = text.endsWith(".");
 //     console.log(part);
 // }
 
 // {
 //     let text = "Hello world, welcome to the universe.";
-//     let part = text.endsWith("universe" , 36);
+//     let part = text.endsWith("universe" , 50);
 //     console.log(part);
 // }
 
