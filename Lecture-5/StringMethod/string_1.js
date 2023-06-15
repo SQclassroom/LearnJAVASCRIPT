@@ -277,16 +277,21 @@
 
 // {
 //     let text = "this is javascript match method";
-//     let part  = text.match(/is/);
+//     let part  = text.match(/j/);
 //     console.log(part);
 // }
 
 /******  String matchall() ******/
 
 {
-    let text = "this is javascript match is method";
-    let part = text.matchAll(/is/gi);
-    console.log(part);
+    const regexp = /is/g;
+    const str = 'this is javascript';
+    const array = [...str.matchAll(regexp)];
+    console.log(array[0]);
+    // Expected output: Array ["test1", "e", "st1", "1"]
+    console.log(array[1]);
+    // Expected output: Array ["test2", "e", "st2", "2"]
+
 }
 
 /******  String startsWith() ******/

@@ -1,6 +1,11 @@
 // JavaScript Functions
 
-// JavaScript Function Syntax
+/*
+    NAMED FUNCTIONS
+    ANONYMOUS FUNCTION
+    
+
+*/
 
 {
     // function functionName(){  
