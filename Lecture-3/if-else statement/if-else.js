@@ -27,12 +27,7 @@
 
 */
 
-// {
-//     var age = 20; 
-//     if( age <= 19) {
-//        document.write("<b>Qualifies for driving</b>");
-//     } 
-// }
+
 
 // if...else statement
 
@@ -48,16 +43,7 @@
 
 */
 
-// {
-//     var age = 17;
-         
-//       if(age >= 18){
-//    document.write("<b>Qualifies for driving</b>");
-//       }
-//       else{
-//          document.write("<b>Does not qualify for driving</b>");
-//       }
-// }
+
 
 // if...else if... statement
 
