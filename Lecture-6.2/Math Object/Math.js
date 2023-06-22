@@ -31,6 +31,7 @@ The syntax for Math any methods is : Math.method(number)
 */
 
 //Math.round():-
+
 //Math.round(x) returns the nearest integer.
 //Example:-
 
@@ -40,6 +41,7 @@ The syntax for Math any methods is : Math.method(number)
 		// console.log(math2);
 
 //Math.ceil():-
+
 //Math.ceil(x) returns the value of x rounded up to its nearest integer.
 //Example:-
 
@@ -51,6 +53,7 @@ The syntax for Math any methods is : Math.method(number)
 		// console.log(math3_2);
 
 //Math.floor():-
+
 //Math.floor(x) returns the value of x rounded down to its nearest integer.
 //Example:-
 
@@ -60,6 +63,7 @@ The syntax for Math any methods is : Math.method(number)
 	// Math.floor(-4.3);		// -5
 
 //Math.trunc():-
+
 //Math.trunc(x) returns the integer part of x.
 //Example:-
 
@@ -68,6 +72,7 @@ The syntax for Math any methods is : Math.method(number)
 		// Math.trunc(4.2);		// 4
 
 //Math.sign():-
+
 //Math.sign(x) returns  if x is negative, null or positive.
 //Example:-
 
@@ -79,6 +84,7 @@ The syntax for Math any methods is : Math.method(number)
 		// console.log(math6_2);
 
 //Math.pow():-
+
 //Math.pow(x, y) returns the value of x to the power of y.
 //Example:-
 
@@ -87,6 +93,7 @@ The syntax for Math any methods is : Math.method(number)
 		// Math.pow(8, 10);		// 64
 
 //Math.sqrt():-
+
 //Math.sqrt(x) returns the square root of x.
 //Example:-
 
@@ -95,6 +102,7 @@ The syntax for Math any methods is : Math.method(number)
 		// Math.sqrt(121);		// 11
 
 //Math.abs():-
+
 //Math.abs(x) returns the absolute (positive) value of x.
 //Example:-
 
@@ -104,6 +112,7 @@ The syntax for Math any methods is : Math.method(number)
 		// console.log(math9_1);
 
 //Math.min() and Math.max():-
+
 //Math.min() and Math.max() can be used to find the lowest or highest value in a list of arguments.
 //Example:-
 
@@ -113,6 +122,7 @@ The syntax for Math any methods is : Math.method(number)
 		// console.log(math11);
 
 //Math.random():-
+
 //Math.random() returns a random number between 0 (inclusive), and 1 (exclusive).
 //Example:-
 
@@ -123,6 +133,7 @@ The syntax for Math any methods is : Math.method(number)
 
 
 //Math.sin():-
+
 //Math.sin(x) returns the sine (a value between -1 and 1) of the angle x (given in radians).
 //If you want to use degrees instead of radians, you have to convert degrees to radians:
 //	Angle in radians = Angle in degrees x PI / 180.
@@ -133,6 +144,7 @@ The syntax for Math any methods is : Math.method(number)
 		// Math.sin(30 * Math.PI / 180); //  0.5 (the sine of 30 degrees)
 
 //Math.cos():-
+
 //Math.cos(x) returns the cosine (a value between -1 and 1) of the angle x (given in radians).
 //If you want to use degrees instead of radians, you have to convert degrees to radians:
 //	Angle in radians = Angle in degrees x PI / 180.
@@ -144,6 +156,7 @@ The syntax for Math any methods is : Math.method(number)
 
 
 //Math.log():-
+
 //Math.log(x) returns the natural logarithm of x.
 //The natural logarithm returns the time needed to reach a certain level of growth.
 //Example:-
@@ -154,6 +167,7 @@ The syntax for Math any methods is : Math.method(number)
 		// Math.log(10);	//  2.302585092994046
 
 //Math.log2():-
+
 //Math.log2(x) returns the base 2 logarithm of x.
 //Example:-
 
@@ -161,6 +175,7 @@ The syntax for Math any methods is : Math.method(number)
 		// console.log(math15);
 
 //Math.log10():-
+
 //Math.log10(x) returns the base 10 logarithm of x.
 //Example:-
 
