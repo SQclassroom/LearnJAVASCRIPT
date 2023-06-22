@@ -23,14 +23,12 @@ Open and cross-platform
 /**************** variable useing var() in javascript *************************/
 
 // {
-//     var names="brinza";
-//     names="Css";
-//     console.log(names);
-//     console.log(names);
+//     // var names="brinza";
+//     // console.log(names);
     
 //     var Names="foo";
 //     var names="Javascript";
-//     console.log(Names);
+//     console.log(names);
     
 //     var thisis=15;
 //     var thatis=45;
@@ -38,8 +36,12 @@ Open and cross-platform
     
 //     var box1="toys";
 //     var box1="cloths";
-//     console.log(box1);
+   
 // }
+
+
+// box1 = "apple"
+// console.log(box1);
 
 /*************************** New Html Element Add In Though Javascript **********************************/
 
@@ -59,11 +61,6 @@ Open and cross-platform
 
 // document.write('hello javascript!');
 
-// {
-//     const a1=50;
-//     //console.log(a);
-// }
-
 
 // js comments
 
@@ -75,9 +72,12 @@ comments */
 
 // Template literals
 
-// var nameone = "hello";
-// var nametwo = 'vivek';
-// alert(`${nameone} ${nametwo}`); 
+var _nameone = "5";
+var name20= '5';
+
+// console.log(nameone+nametwo);
+
+alert(`${nameone} + ${nametwo}`); 
 
 
 /*  
