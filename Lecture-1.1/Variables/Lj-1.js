@@ -1,27 +1,62 @@
 // JavaScript Variable
 
-
 // Declaration Var()
 
+// var x;
+// x = 10;
+// console.log(x);
+
+
+// let x;
+// x = 10;
+// console.log(x);
+
+const x = 10;
+console.log(x);
+
+
+// {
+//     var namess = name1 + names;
+//     console.log(namess);    
+//     var name1 = "toys";
+//     var names = "clothes";
+// }
 
 
 // Declaration Let()
 
-
-
+// {
+//     // let x = 10;
+//     let y = 20;
+//     // z = 30;
+//     let z = 44;
+//     console.log(z);
+// }
+// {
+//     let x = 10;
+//     console.log(x);
+// }
+    
 // Declaration Const()
 
 
+// const x = 15;
+// {
+//     const y = "15";
+//     const z =  x;  /* (z+=x) */
+// }
+
+// console.log(x);
 
 // string with quotes
 
-{
-    let x = "wor'ld";
-    let y = 'wor"ld';
-    let z = "wor\"ld";
-    document.write(x + "<br>" + y + "<br>" + z);
-    console.log(y + "<br>");
-}
+    // {
+    //     let x = "wor'ld";
+    //     let y = 'wor"ld';
+    //     let z = "wor\"ld";
+    //     document.write(x + "<br>" + y + "<br>" + z);
+    //     console.log(y + "<br>");
+    // }
 
 // types of variables
 
