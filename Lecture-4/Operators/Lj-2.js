@@ -1,10 +1,7 @@
 //JavaScript Operators
 
-// 1. Arithmetic Operators
-// 2. Comparison (Relational) Operators
-// 3. Logical Operators
-// 4. Assignment Operators
-// 5. Special Operators
+// 1. Logical Operators
+// 2. Special Operators
 
 
 /* Logical Operators

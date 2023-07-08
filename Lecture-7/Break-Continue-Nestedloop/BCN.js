@@ -1,4 +1,4 @@
-// Break , Continue and Nested Loop
+// Break , Continue and Nested Statements
 
 // {
 //   for(let counter = 1; counter <= 10 ; counter++){

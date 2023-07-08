@@ -9,6 +9,8 @@
 // console.log(fruits.length);
 // fruits.length = 10;
 // console.log(fruits);
+
+
 // console.log(Object.keys(fruits));
 // console.log(fruits.length);
 // console.log(fruits[8]);
@@ -97,22 +99,6 @@ Array indexes start with 0:
 //     fruits[fruits.length] = "Lemon";
 //     document.getElementById("demo-1").innerHTML = fruits;
 //     }
-// }
-
-// Adding elements with high indexes can create undefined "holes" in an array.
-
-// {
-//     const fruits = ["Banana", "Orange", "Apple"];
-//     fruits[6] = "Lemon";
-//     console.log(fruits);
-
-//     let fLen = fruits.length;
-//     let text = "";
-//     for (i = 0; i < fLen; i++) {
-//     text += fruits[i] + "<br>";
-//     }
-
-//     document.getElementById("demo").innerHTML = text;
 // }
 
 // Array Methods

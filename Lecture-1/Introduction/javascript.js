@@ -43,7 +43,7 @@ Open and cross-platform
 // box1 = "apple"
 // console.log(box1);
 
-/*************************** New Html Element Add In Though Javascript **********************************/
+/*******New Html Element Add In Though Javascript *********/
 
 // {
 //     var newelement=document.createElement("h1");
@@ -77,8 +77,7 @@ var name20= '5';
 
 // console.log(nameone+nametwo);
 
-alert(`${nameone} + ${nametwo}`); 
-
+alert(`${_nameone} + ${nametwo}`); 
 
 /*  
 
