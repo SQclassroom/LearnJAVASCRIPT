@@ -12,13 +12,13 @@
 /******   String indexOf() ******/
 
 // {
-//     let fruits="apple  , mango , watermelon , strawberry , lemon";
-//     let part = fruits.indexOf("go");
+//     let s="This code undefiend code code !";
+//     let part = fruits.indexOf();
 //     console.log(part);
 // }
 
 // {
-//     let fruits="apploe  , mango , watermelon , strawberry , lemon";
+//     let s="This code undefiend code code !";
 //     let part = fruits.indexOf("o" , 5);
 //     console.log(part);
 // }
@@ -26,13 +26,13 @@
 /******   String lastIndexOf() ******/
 
 // {
-//     let fruits="apple  , mango , watermelon , strawberry , lemon , mango";
+//     let s="This code undefiend code code !";
 //     let part = fruits.lastIndexOf("mango");
 //     console.log(part);
 // }
 
 // {
-//     let fruits="apple  , mango , watermelon , strawberry , lemon";
+//     let s="This code undefiend code code !";
 //     let part = fruits.lastIndexOf("o" , 20);
 //     console.log(part);
 // }

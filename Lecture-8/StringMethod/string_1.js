@@ -1,11 +1,24 @@
-/******  javascript string method and string search method ******/
+/***** javascript string ******/
+
+// The String object is used to represent and manipulate a sequence of characters.
+
+/* primitive string */
+
+const string1 = "A string primitive";
+const string2 = 'Also a string primitive';
+const string3 = `Yet another string primitive`;
+
+/* string as object */
+
+const string4 = new String("A String object");
+
+/******  javascript string method ******/
 
 // String length
+// String charAt()
 // String slice()
 // String substring()
 // String substr()
-// String indexOf()
-// String lastIndexOf()
 // String replace()
 // String replaceAll()
 // String toUpperCase()
@@ -16,7 +29,6 @@
 // String trimEnd()
 // String padStart()
 // String padEnd()
-// String charAt()
 // String charCodeAt()
 // String split()
 // String includes()
@@ -31,18 +43,27 @@
 //     console.log(textlength);
 // }
 
-/****** String slice() ******/
+
+/******  String charAt() ******/
 
 // {
-//     let fruits="apple  , mango , watermelon , strawberry";
+//     let demotext="this is string values";
+//     let demo = demotext.charAt(10);
+//     console.log(demo);
+// }
+
+/****** String slice() return New String ******/
+
+// {
+//     let s="The morning is upon us.";
 //     let part = fruits.slice(10 , 20);
 //     console.log(part);
 // }
 
-/******  String substring() ******/
+/******  String substring() return New String ******/
 
 // {
-//     let fruits="abcdefghijklmnopqrstuvwxyz";
+//     let s="The morning is upon us.";
 //     let part = fruits.substring(5 , 9);
 //     console.log(part);
 // }
@@ -116,22 +137,13 @@
 
 /******  String concat() ******/
 
-// {
-//     let text1 = "this is ";
-//     let text2 = "surat";
-//     let text3 = text1.concat("    " , text2);
-//     let text4 = text3.length;
-//     let text5 = text1.length;
-//     let text6 = text2.length;
-//     console.log(text3);
-//     console.log(text4); 
-//     console.log(text5); 
-//     console.log(text6); 
-//     let text7 = text1+text2;
-//     console.log(text7);
-//     var text8 = text7.length;
-//     console.log(text8);
-// }
+{
+    let text1 = "this is ";
+    let text2 = "surat ";
+    let text3 = " it's good "
+    let text4 = text1.concat(text3 , text2);
+    document.write(text4);
+}
 
 /******  String trim() ******/
 
@@ -180,14 +192,7 @@
 //     console.log(demo);
 // }
 
-/******  String charAt() ******/
 
-// {
-//     let demotext="this is string values";
-//              //   012345678901234567890
-//     let demo = demotext.charAt(10);
-//     console.log(demo);
-// }
 
 /******  String charCodeAt() ******/
 
