@@ -213,38 +213,38 @@
 // javascript array fill method
 
 
-{
-    const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-    const newfill = fruits.fill("1"  , 2);
-    console.log(newfill);
-}
+// {
+//     const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+//     const newfill = fruits.fill("1" , 3);
+//     console.log(newfill);
+// }
 
 // javascript array copywithin() method
 
-{
-    const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango" , "watermelon" , "kiwi"  , "Olive"];
-    const newcopy = fruits.copyWithin(2 , 4);
-    console.log(newcopy);
-}
+// {
+//     const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango" , "watermelon" , "kiwi"  , "Olive"];
+//     const newcopy = fruits.copyWithin(3 , 4);
+//     console.log(newcopy);
+// }
 
 // javascript valueof() method
 
-{
-    const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango" , "watermelon" , "kiwi"  , "Olive"];
-    const newfruits = fruits.valueOf();
-    console.log(newfruits);
-}
+// {
+//     const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango" , "watermelon" , "kiwi"  , "Olive"];
+//     const newfruits = fruits.valueOf();
+//     console.log(newfruits);
+// }
 
 // javascript flat() method
 
-{
-    const fruits = [1,2,3,[4,[5,6,[7,8,9]]]];
-    const newarray1 = fruits.flat();
-    const newarray2 = fruits.flat(2);
-    const newarray3 = fruits.flat(3);
-    const newarray4 = fruits.flat(4);
-    console.log(newarray1);
-    console.log(newarray2);
-    console.log(newarray3);
-    console.log(newarray4);
-}
+// {
+//     const fruits = [1,2,3,[4,[5,6,[7,8,9]]]];
+//     const newarray1 = fruits.flat();
+//     const newarray2 = fruits.flat(2);
+//     const newarray3 = fruits.flat(3);
+//     const newarray4 = fruits.flat(4);
+//     console.log(newarray1);
+//     console.log(newarray2);
+//     console.log(newarray3);
+//     console.log(newarray4);
+// }
