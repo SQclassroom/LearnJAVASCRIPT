@@ -56,9 +56,6 @@
     //     var a=30;
 } 
 
-
-
-
 // JavaScript Function Object
 
  //   new Function ([arg1[, arg2[, ....argn]],] functionBody)  
