@@ -31,15 +31,15 @@ The syntax for Math any methods is : Math.method(number)
 */
 //Math.PI
 
-let valueofpi = Math.PI
-console.log(valueofpi);
+// let valueofpi = Math.PI
+// console.log(valueofpi);
 
 //Math.round():-
 
 //Math.round(x) returns the nearest integer.
 //Example:-
 
-		// let math1 = Math.round(4.5);		// 5
+		// let math1 = Math.round(4.4);		// 4
 		// console.log(math1);
 		// let math2 = Math.round(4.4);		// 4
 		// console.log(math2);
@@ -49,37 +49,31 @@ console.log(valueofpi);
 //Math.ceil(x) returns the value of x rounded up to its nearest integer.
 //Example:-
 
-		// let math3 = Math.ceil(4.9);		// 5
+		// let math3 = Math.ceil(4.4);		// 5
 		// console.log(math3);
-		// let math3_1 = Math.ceil(3.8);	
-		// console.log(math3_1)	         // 4
-		// let math3_2 = Math.ceil(-4.3);	// -4
-		// console.log(math3_2);
 
 //Math.floor():-
 
 //Math.floor(x) returns the value of x rounded down to its nearest integer.
 //Example:-
 
-	// let math4 =	Math.floor(4.9);		// 4
+	// let math4 =	Math.floor(4.1);		// 4
 	// console.log(math4);
-	// Math.floor(4.2);		// 4
-	// Math.floor(-4.3);		// -5
+	
 
 //Math.trunc():-
 
 //Math.trunc(x) returns the integer part of x.
 //Example:-
 
-		// let math5 = Math.trunc(5.9);		// 5
+		// let math5 = Math.trunc(61.9);		// 5
 		// console.log(math5);
-		// Math.trunc(4.2);		// 4
 
 //Math.sign():-
 //Math.sign(x) returns  if x is negative, null or positive.
 //Example:-
 
-		// let math6 = Math.sign(15);		// 1
+		// let math6 = Math.sign(45);		// 1
 		// console.log(math6);	
 		// let math6_1 = Math.sign(-180);
 		// console.log(math6_1);
@@ -91,18 +85,16 @@ console.log(valueofpi);
 //Math.pow(x, y) returns the value of x to the power of y.
 //Example:-
 
-		// let math7 = Math.pow(5, 5);		// 243 //3x3x3x3x3
+		// let math7 = Math.pow(1000 , 2);
 		// console.log(math7);
-		// Math.pow(8, 10);		// 64
 
 //Math.sqrt():-
 
 //Math.sqrt(x) returns the square root of x.
 //Example:-
 
-		// let math8 = Math.sqrt(64);		// 8
+		// let math8 = Math.sqrt(625);
 		// console.log(math8);
-		// Math.sqrt(121);		// 11
 
 //Math.abs():-
 
@@ -111,7 +103,7 @@ console.log(valueofpi);
 
 		// let math9 = Math.abs(-6);		// 6
 		// console.log(math9);
-		// let math9_1 = Math.abs(1.2);		// 1.2
+		// let math9_1 = Math.abs(1.2);	// 1.2
 		// console.log(math9_1);
 
 //Math.min() and Math.max():-
@@ -129,9 +121,7 @@ console.log(valueofpi);
 //Math.random() returns a random number between 0 (inclusive), and 1 (exclusive).
 //Example:-
 
-		// let  math12 = Math.random();
-		// console.log(math12);
-		// console.log(math12);
+		// let  math12 = Math.floor(Math.random()*100000);
 		// console.log(math12);
 
 
